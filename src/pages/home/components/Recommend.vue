@@ -19,25 +19,8 @@
 <script>
 	export default{
 		name: 'HomeRecommend',
-		data () {
-			return {
-				recommendList: [{
-					id: '0001',
-					imgUrl: 'http://img1.qunarzz.com/sight/p0/1902/7a/7ac34ad6cc6e7497a3.img.jpg_200x200_939e55b1.jpg',
-					title: '东莞龙凤山庄影视渡假村',
-					desc: '与明星的邂逅'
-				},{
-					id: '0002',
-					imgUrl: 'http://img1.qunarzz.com/sight/p0/1511/34/34170b200db08a5a90.img.jpg_200x200_cc3130fd.jpg',
-					title: '隐贤山庄',
-					desc: '与明星的邂逅'
-				},{
-					id: '0003',
-					imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/84/00648f910d93824808f2781486ca5cb8.water.jpg_200x200_9c0de28d.jpg',
-					title: '水立方游泳馆',
-					desc: '与明星的邂逅'
-				}]
-			}
+		props:{
+			recommendList: Array
 		}
 	}
 </script>
