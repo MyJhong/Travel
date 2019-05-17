@@ -50,8 +50,8 @@
 		activated () {
 			window.addEventListener('scroll',this.handleScroll)
 		},
-		computed:{
-			
+		deactivated () {
+			window.removeEventListener('scroll',this.handleScroll)
 		}
 	}
 		
